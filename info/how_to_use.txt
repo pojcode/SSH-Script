@@ -1,0 +1,13 @@
+### HOW TO USE ###
+
+
+Fill in data_file.txt with the data required
+Save data_file.txt
+run script
+
+You can modify parameters for pings and SSH sessions using .cfg file.
+
+You can place configuration files in config_files directory and use that files as template to apply the commands contained in the file
+(e.g in data_file.txt -> -COMMANDS: -> <file=filename.txt> -> script will take commands from filename.txt and apply them to devices)
+
+A log_file located in logs directory will be created after script ends.
